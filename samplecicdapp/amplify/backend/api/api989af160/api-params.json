@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "samplecicdappdf25f7d0",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "api989af160",
+  "apiName": "api989af160",
+  "functionArns": [
+    {
+      "lambdaFunction": "samplecicdappdf25f7d0"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-samplecicdapp-dev-162427-authRole",
+    "unAuthRoleName": "amplify-samplecicdapp-dev-162427-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "samplecicdappdf25f7d0",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

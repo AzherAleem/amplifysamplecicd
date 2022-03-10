@@ -10,6 +10,14 @@
       "StackName": "amplify-samplecicdapp-dev-162427",
       "StackId": "arn:aws:cloudformation:us-east-1:288645523638:stack/amplify-samplecicdapp-dev-162427/811161b0-9f9b-11ec-9c43-124f0450571d",
       "AmplifyAppId": "d1mm9s6tniqqh4"
+    },
+    "categories": {
+      "function": {
+        "samplecicdappdf25f7d0": {
+          "deploymentBucketName": "amplify-samplecicdapp-dev-162427-deployment",
+          "s3Key": "amplify-builds/samplecicdappdf25f7d0-4e465a6439777a776c35-build.zip"
+        }
+      }
     }
   }
 }
